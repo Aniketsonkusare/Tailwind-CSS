@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Tailwind CSS</title>
+    <link href="../output.css" rel="stylesheet">
+</head>
+<body>
+    <div class="grid gap-4 m-4 sm:grid-cols-2 grid-cols-2">
+        <div class="bg-orange-500 min-h-[100px] rounded shadow-xl"></div>
+        <div class="bg-gray-500 min-h-[100px] rounded shadow-xl"></div>
+    </div>
+
+    <div class="grid gap-4 m-4 grid-cols-3 sm:grid-cols-2">
+        <div class="bg-orange-500 min-h-[100px] rounded shadow-xl"></div>
+        <div class="bg-gray-500 min-h-[100px] rounded shadow-xl"></div>
+        <div class="bg-teal-500 min-h-[100px] rounded shadow-xl"></div>
+    </div>
+
+    <div class="grid gap-4 m-4 sm:grid-cols-12">
+        <div class="bg-orange-500 min-h-[100px] rounded shadow-xl sm:col-span-2 hidden sm:block"></div>
+        <div class="bg-gray-500 min-h-[100px] rounded shadow-xl sm:col-span-8"></div>
+        <div class="bg-teal-500 min-h-[100px] rounded shadow-xl sm:col-span-2 hidden sm:block"></div>
+    </div>
+</body>
+</html>
